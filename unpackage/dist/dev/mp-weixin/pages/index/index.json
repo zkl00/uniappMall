@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "购物街",
+  "navigationBarBackgroundColor": "#ff8198",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "swipth": "/components/swipth"
+  }
+}

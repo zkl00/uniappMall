@@ -1,0 +1,102 @@
+.scroll-Y {
+  width: 100%;
+}
+.Recommended_warp > image {
+  width: 100%;
+}
+.trjian_warp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  text-align: center;
+  padding: 20rpx 20rpx 30rpx 20rpx;
+  border-bottom: 20rpx solid #eeee;
+}
+.trjian_warp .warp_box image {
+  width: 150rpx;
+}
+.trjian_warp .warp_box > view {
+  font-size: 28rpx;
+}
+.active_warp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.active_warp .active_color {
+  padding-bottom: 10rpx;
+  border-bottom: 5rpx solid red;
+}
+.content_view {
+  height: 100%;
+}
+.recommend_boxs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 10rpx 20rpx;
+}
+.recommend_boxs .recomm_newbox {
+  width: 49%;
+}
+.recommend_boxs .recomm_newbox image {
+  width: 100%;
+}
+.recommend_boxs .recomm_newbox .title {
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+  padding-top: 10rpx;
+}
+.recommend_boxs .newimgLogo {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.recommend_boxs .newimgLogo .price {
+  font-size: 28rpx;
+  color: #ff5777;
+  padding: 11rpx 20rpx;
+}
+.recommend_boxs .newimgLogo .imgs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 50rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.recommend_boxs .newimgLogo .imgs image {
+  width: 35rpx;
+}
+.recommend_boxs .newimgLogo .imgs text {
+  font-size: 28rpx;
+  margin-top: 5rpx;
+}
+.topo {
+  position: fixed;
+  right: 30rpx;
+  bottom: 20rpx;
+}
+.topo image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
